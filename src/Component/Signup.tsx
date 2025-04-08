@@ -53,7 +53,7 @@ type ISignUp = z.infer<typeof SignUpScheme>;
         <TextField  placeholder="Enter Password"  type="password" {...register('password')}   error={!!errors.password}   helperText={errors.password?.message} sx={{ mb: 2 }}  />
        
         <TextField  placeholder="ReEnter Password"  type="password" {...register('passwordConfirm')}   error={!!errors.passwordConfirm}   helperText={errors.passwordConfirm?.message} sx={{ mb: 2 }}  />
-       <Button type="submit" >SignUp</Button>
+       <Button type="submit" >SignUp & Commit the changes</Button>
        </FormProvider>
         </Box>
         </form>
